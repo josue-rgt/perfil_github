@@ -7,7 +7,8 @@
 .listItem {
     list-style: none;
     padding: 16px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
 }
 
 .itemName b, .itemLanguage b {
@@ -23,4 +24,15 @@
     margin-top: 8px;
     padding: 8px;
     text-decoration: none;
+    border-radius: 5px;
+}
+
+.mensagem {
+    text-align: center;
+    font-size: 40px;
+}
+
+.alert {
+    display: flex;
+    justify-content: center;
 }

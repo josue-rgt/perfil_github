@@ -15,3 +15,19 @@
     --corPrincipal: #A181E2;
     --corSecundaria: #000000;
 }
+
+.pesquisa {
+    background-color: var(--corSecundaria);
+    justify-content: center;
+    display: flex;
+}
+
+.pesquisaUsuario {
+    width: 300px;
+    margin: 15px 0;
+    padding: 8px;
+    font-size: 16px;
+    text-align: center;
+    border: 5px solid var(--corPrincipal);
+    border-radius: 5px;
+}
